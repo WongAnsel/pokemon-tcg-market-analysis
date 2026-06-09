@@ -44,12 +44,12 @@ streamlit run dashboard/app.py          # launch dashboard
 ## Project Structure
 
 ```
-├── ingestion/        # API fetching and S3/Snowflake loading
-├── dbt_project/      # SQL models, tests, and documentation
-├── notebooks/        # EDA and analysis
-├── models/           # Price prediction model
-├── dashboard/        # Streamlit app
-└── .github/workflows/          # GitHub Actions pipeline scheduling
+├── ingestion/          # API fetching and S3/Snowflake loading
+├── dbt_project/        # SQL models, tests, and documentation
+├── notebooks/          # EDA and analysis
+├── models/             # Price prediction model
+├── dashboard/          # Streamlit app
+└── .github/workflows/  # GitHub Actions pipeline scheduling
 ```
 
 ## Roadmap
