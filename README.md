@@ -10,7 +10,7 @@ An end-to-end data pipeline that ingests Pokémon TCG card pricing data, stores 
 | Data Lake | AWS S3 |
 | Warehouse | Snowflake |
 | Transformation | dbt Core |
-| Orchestration | Apache Airflow |
+| Orchestration | GitHub Actions |
 | Modeling | scikit-learn / Prophet |
 | Dashboard | Streamlit |
 
@@ -49,7 +49,7 @@ streamlit run dashboard/app.py          # launch dashboard
 ├── notebooks/        # EDA and analysis
 ├── models/           # Price prediction model
 ├── dashboard/        # Streamlit app
-└── airflow/          # Pipeline DAG
+└── .github/workflows/          # GitHub Actions pipeline scheduling
 ```
 
 ## Roadmap
@@ -62,4 +62,4 @@ streamlit run dashboard/app.py          # launch dashboard
 - [ ] EDA notebook
 - [ ] Price prediction model
 - [ ] Streamlit dashboard
-- [ ] Airflow orchestration
+- [ ] GitHub Actions scheduled pipeline
